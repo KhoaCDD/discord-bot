@@ -5,5 +5,10 @@ export const data = new SlashCommandBuilder()
 	.setDescription('Replies with Pong!');
 
 export async function execute(interaction) {
-	await interaction.reply('Pong!');
+	await interaction.reply('Nhật 7 ăn cứt!');
 }
+
+export const ping = {
+	data,
+	execute,
+};

@@ -5,7 +5,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "bot": "env nodemon src/index.js"
+    "bot": "env nodemon src/index.js",
+    "load": "env node src/deploy-commands.js"
   },
   "keywords": [],
   "author": "",
@@ -15,10 +16,10 @@
     "@discordjs/rest": "^0.1.0-canary.0",
     "discord-api-types": "^0.25.2",
     "discord.js": "^13.3.1",
-    "dotenv": "^10.0.0",
-    "nodemon": "^2.0.15"
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.4.1"
+    "eslint": "^8.4.1",
+    "nodemon": "^2.0.15"
   }
 }
